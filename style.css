@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Khula", sans-serif
+}
+
+.navbar {
+  background-color: rgba(198, 254, 69, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.linksnavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 30px;
+  font-family: "Khula", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#logonavbar {
+  width: 90px;
+  height: 90px;
+}
+
+#lupita {
+  width: 30px;
+  height: 30px;
+}
+
+.hero1 {
+  width: 100vw;
+}
+
+.slidetitle {
+  text-align: center;
+  padding: 80px;
+  font-family: "Khula", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 4rem;
+}
+
+
+.mainslide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+.motos{
+  background-color: rgba(225, 255, 154, 1);
+  width: 526px;
+  height: 455px;
+  display: flex;
+  align-items: center;
+}
+
+.motos img{
+  width: 100%;
+  height: auto;
+}
+
+.centro{
+  background-color: rgb(190, 230, 98);
+}
+
+.motos:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out; 
+  cursor: pointer;
+}
+
+.HistoriaHome{
+  font-family: "Khula", sans-serif;
+  font-weight: regular;
+  font-style: normal;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  padding: 10% 10% 10% 10%;
+  gap: 10%;
+}
+
+.HistoriaHome div {
+  width: 50%;
+  height: auto;
+  
+}
+
+.HistoriaHome button {
+  all:unset;
+  padding: 1% 2% 1% 2% ;
+  background-color: rgb(190, 230, 98);
+  border-color: rgb(190, 230, 98);
+  font-size: 20px;
+}
+
+.HistoriaHome button:hover {
+  background-color:  rgb(162, 197, 78);
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out; 
+  cursor: pointer;
+}
+
+.footer {
+
+  background-color: rgba(198, 254, 69, 1);
+  padding: 80px 80px;
+  color: black;
+  text-decoration: none;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-links {
+  width: 25%;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
