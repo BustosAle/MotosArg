@@ -24,3 +24,7 @@ h1 {
         gap: 20px;
 	height: 100vh;
     }
+    
+    .BoxConsultas{
+      grid-column:2/2;
+    }
